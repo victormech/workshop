@@ -1,0 +1,20 @@
+{
+    "name": "ribeiro/workshop",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Victor Ribeiro",
+            "email": "victor.ribeiro@check24.de"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Example\\": "src",
+            "Test\\": "tests"
+        }
+    }
+}
